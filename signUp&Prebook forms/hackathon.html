@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appointment Form</title>
+</head>
+<body>
+  <h1>Appointment Form</h1>
+  <form action="#" method="post" enctype="multipart/form-data">
+    <fieldset>
+      <legend>Book an Appointment</legend>
+
+      <label>Hospital Department</label>
+      <input list="country-list" id="country" name="country">
+    
+      <datalist id="country-list">
+        <option value="Gynaecology"/>
+        <option value="Peadiatrics"/>
+        <option value="Ear,Nose&Throat"/>
+        <option value="Eye Care (Optometry)"/>
+        <option value="Teeth (Dentistry)"/> 
+        <option value="General Medicine"/> 
+        <option value="Surgery"/> 
+        <option value="Physioteraphy"/> 
+      </datalist><br><br>
+      
+      <label>Reason for Appointment</label>
+      <select name="Country" id="country">
+        <option value="Post Surgery">Post Surgery</option>
+        <option value="Post-Natal">Post-Natal</option>
+        <option value="Pre-Natal" selected>Pre-Natal</option>
+        <option value="Medical Checkup" selected>Medical Checkup</option>
+      </select>
+      <br><br>
+    
+      <label for="male">Adult (18yrs&above)</label> <br>
+      <input type="radio" name="gender" value="Male" id="male">
+      <label for="male">Male</label> <br>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Female</label><br><br>
+
+      <label for="male">Child (0-18yrs)</label> <br>
+      <input type="radio" name="gender" value="Male" id="male">
+      <label for="male">Male</label> <br>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Female</label><br><br>
+
+      <label for="male">Is this your first Appointment</label> <br>
+      <input type="radio" name="gender" value="Male" id="male">
+      <label for="male">Yes</label> <br>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">No</label><br><br>
+      
+      <label for="email">Select Preferred Date: </label>
+      <input type="email" name="email" id="email" placeholder="enter your email address"><br><br>
+      
+
+      <label>Upload lab/test results if any</label>
+      <Input type="file" name="file" id="file"><br><br>
+    
+      <label for="comment"> Any other information you would like us to know before the appointmnent</label><br>
+      <textarea name="comments" id="comments" cols="50" rows="10"></textarea> <br>
+    
+      <button onclick="alert('Please wait while we find Doctors for you')">Find Available Doctor</button><br><br>
+    
+      <br><br>
+      <label for="male">Dr Adams</label><br>
+      <input type="radio" name="gender" value="Male" id="male">
+      <label for="male">2pm - 2:30pm</label> <br>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">5pm -5:30pm</label><br><br>
+
+      <label for="male">Dr Jacobs</label> <br>
+      <input type="radio" name="gender" value="Male" id="male">
+      <label for="male">6am - 7am</label> <br>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">10am - 10:30am</label><br><br>
+
+      <button onclick="alert('Please wait whil<br><br>e we redirect you to the payment channel')">Book and Pay</button><br><br>
+    
+      <br><br>
+      <br><br>
+      <label for="male">Card Type</label> <br>
+      <input type="radio" name="gender" value="Male" id="male">
+      <label for="male">Mastercard</label> <br>
+      <input type="radio" name="gender" value="female" id="female">
+      <label for="female">Verve</label><br><br>
+      <label for="firstname">Card Number</label><br>
+      <input type="text" name="firstname" id="firstname"/> <br><br>
+      <label for="lastname">Expiry Date</label><br>
+      <input type="text" name="lastname" id="lastname"/> <br><br>
+      <label for="firstname">CVV</label><br>
+      <input type="text" name="firstname" id="firstname"/> <br><br>
+      <button onclick="alert('Your appointmnent has been booked and details has been sent to your email address. Please be punctual')">Book Appointment</button><br><br>
+      
+    </fieldset>
+  </form>
+</body> 
