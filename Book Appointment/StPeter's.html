@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="../Test/StPeters.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <!-- This houses the navigation elements -->
+   <div id="header">
+         <h2 class="LOGO">St Peters</h2><br>
+       <nav id="nav">
+            <a href="#">Home</a><br>
+            <a href="#">Records</a><br>
+            <a href="#" >Book Appointment</a><br>
+            <a href="#">Logoout</a>
+      </nav>
+  </div>
+  <H2 id="book">BOOK APPOINTMENT</H2>
+   <!-- This section is for the day, month and year selections -->
+   <!-- <section id="body"> -->
+    <form>
+            <label for="hospital id" id="hospital">Hospital ID Number:</label>
+            <input type="number" name="hospital id" id="hospitalno"> <br><br>
+         <!-- This section is for choosing the gender of the patients -->
+            <div id="ColA">         
+                <label for="gender" id="gender">Gender:</label>
+                <select name="gender" id="genders">
+                    <option value="Gynaecology">Male</option>
+                     <option value="Surgery">Female</option>
+                </select>
+          <!-- This section is for selecting the age group of the patients -->
+          <label for="agegroup" id="agegroup">Age group:</label>
+          <select name="agegroup" id="agegroup">
+              <option value="Gynaecology">Child</option>
+               <option value="Surgery">Adult</option>
+            </select>
+             </div>          
+        <!-- This section is for Departments in the Hospital -->
+  <section id="ColB">
+    <form action="#" method="post" enctype="multipart/form-data" id="sign">
+         <label for="departments" id="department">Departments:</label>
+         <select name="departments" id="departments">
+             <option value="Gynaecology">Gynaecology</option>
+              <option value="Surgery">Surgery</option>
+              <option value="accident">Accident & Emergency</option>
+              <option value="dentistry">Dentistry</option>
+              <option value="Childcare">Childcare</option>
+              <option value="other">Other</option>
+         </select><br>
+         <!-- This section is for Ailments -->
+         <label for="ailment" id="ailment">Ailments:</label>
+             <select name="ailment" id="ailments">
+                  <option value="ailment">General Checkup</option>
+                  <option value="ailment">Headache</option>
+                  <option value="ailment">Breast lump</option>
+                  <option value="ailment">Irregular periods</option>
+                  <option value="ailment">Pregnancy</option>
+                  <option value="ailment">Toothache</option>
+            </select><br><br>
+        </section>
+       <div id="date">
+          <label for="appointment date" id="appointment">Appointment Date:</label>
+            <!-- <h3>Appointment Date</h3> -->
+             <label for="day">Day:</label>
+             <select name="day" id="day">
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+                   <option value="10">10</option>
+                   <option value="11">11</option>
+                   <option value="12">12</option>
+                   <option value="13">13</option>
+                   <option value="14">14</option>
+                   <option value="15">15</option>
+                   <option value="16">16</option>
+                   <option value="17">17</option>
+                   <option value="18">18</option>
+                   <option value="19">19</option>
+                   <option value="20">20</option>
+                   <option value="21">21</option>
+                   <option value="22">22</option>
+                   <option value="23">23</option>
+                   <option value="24">24</option>
+                   <option value="25">25</option>
+                   <option value="26">26</option>
+                   <option value="27">27</option>
+                   <option value="28">28</option>
+                   <option value="29">29</option>
+                   <option value="30">30</option>
+                   <option value="31">31</option>
+             </select>
+             <label for="month">Month:</label>
+             <select name="month" id="month">
+                   <option value="January">January</option>
+                   <option value="February">February</option>
+                   <option value="March">March</option>
+                   <option value="April">April</option>
+                   <option value="May">May</option>
+                   <option value="June">June</option>
+                   <option value="July">July</option>
+                   <option value="August">August</option>
+                   <option value="September">September</option>
+                   <option value="October">October</option>
+                   <option value="November">November</option>
+                   <option value="December">December</option>
+             </select>
+                <label for="year">Year:</label>
+                <select name="year" id="year">
+                         <option value="2020">2020</option>
+                         <option value="2021">2021</option>
+                         <option value="2022">2022</option>
+                         <option value="2023">2023</option>
+                </select><br><br>
+    </div>
+    <div>
+          <!-- This section is for the available doctors -->
+          <label for="doctors" id="doctor">Available Doctors:</label>
+             <select name="doctors" id="doctors">
+                   <option value="doctors">Dr. Richard</option>
+                   <option value="doctors">Dr. Montgomerry</option>
+                   <option value="doctors">Dr. Stone</option>
+                   <option value="doctors">Dr. Ogunlana</option>
+                   <option value="doctors">Dr. Nnamdi</option>
+                   <option value="doctors">Dr. Musa</option>
+             </select><br>
+    </section>
+</section>  
+   <!--This section is for additional information to be provided by the patients  -->
+   <div id="inform">
+         <label for="info" id="information">Additional information</label><br>
+         <textarea name="info" id="info" cols="50" rows="10"></textarea><br><br> 
+         <p><button type="submit" id="submit">Book Appointment</button></p>
+  </form> 
+   </div>
+<footer>
+       <div id="Copyright">
+           <p >Copyright 2020 St Peters Hospital.</p>
+           <p>All rights reserved.</p>
+      </div>
+   </footer>
+</body>
+</html>
