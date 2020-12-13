@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    /* border:0; */
+    box-sizing:border-box;
+}
+body {
+    font-size: 22px;
+     font-family: 'Montserrat', sans-serif;      
+}
+#header {
+       display:flex;
+       justify-content:space-between;
+       background-color:aquamarine; 
+       padding:20px;   
+}
+#nav {
+     display:flex;
+     justify-content:space-around;
+     width:50%;
+     line-height:1.7;
+    }
+#nav a{
+     text-decoration:none;
+     color:white;
+}
+.LOGO{
+     color:white
+}
+#book {
+    text-align:center;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+#hospitalno {
+    border:solid 1px;
+   width:20%;
+   font-size:20px;
+ } 
+#hospital {
+    margin-left:30px;
+    width:70%;
+  }
+#ColA {
+  display: flex;
+}
+#gender {
+    margin-left:30px;
+    line-height: 2;
+}
+#genders {
+   line-height:2;
+   margin-right:15px;
+}
+#agegroup {
+    line-height:2;
+}
+#ColB{
+    display: flex;
+    margin-top:20px;
+    margin-left:30px;
+}
+#department {
+    line-height: 2;
+}
+#departments {
+    margin-right:15px;
+}
+#ailment {
+    line-height: 2;
+    /* margin-left:5px; */
+}
+#date {
+    margin-top:30px;
+    margin-left:30px;
+}
+#doctor {
+    margin-left:30px;
+}
+
+/* #day {
+    border:solid 1px;
+    width:10%;
+    font-size:20px;
+}
+#month {
+    border:solid 1px;
+    width:25%;
+    font-size:20px;
+}
+#year {
+    border:solid 1px;
+    width:20%;
+    font-size:20px;
+} */
+#inform{
+   margin-top:30px;
+   margin-left:30px;
+  }
+  #submit {
+      background-color:aquamarine;
+  }
+  /* #comments{
+      margin-bottom:30px
+  } */
+  #Copyright {
+    display:flex;
+    flex-direction:row;
+    margin-left:20%;
+    margin-top:30px;
+  /*   margin-bottom:20px; */
+  }
+  footer {
+    background-color:aquamarine;
+  }
+
