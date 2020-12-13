@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>St. Peter's Hospital</title>
+	<link rel="stylesheet" type="text/css" href="Payment.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">	
+</head>
+<body>
+    <div class="header">
+		<nav>
+			<a class="nav-brand" href="index.html"><img src="images/logo.png"></a>
+			<ul class="nav-group">
+				<li class="nav-item"><a href="index.html">Home</a></li>
+				<li class="nav-item"><a href="login.html">Login</a></li>
+				<li class="nav-item"><a href="appointment.html">Book an appointment</a></li>
+				<li class="nav-item"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+    </div>
+     <div class="card">
+         <H2>Payment Details</H2>
+         <img src="images/card.jpg" width="100" height="30" id="cards"></li>
+     </div>
+ <section class="container">
+     <div class="details">
+        <form>
+           <label for="male">Card Type</label> <br>
+           <input type="radio" name="gender" value="Male" id="male">
+           <label for="male">Mastercard</label> <br>
+           <input type="radio" name="gender" value="female" id="female">
+           <label for="female">Visa</label><br><br>
+           <label for="firstname">Card Number</label><br>
+           <input type="text" name="firstname" id="firstname"/> <br><br>
+           <label for="expirydate">Expiry Date</label><br>
+           <label for="month">Month</label>
+              <select name="month" id="month">
+                 <option value="1">01</option>
+                 <option value="2">02</option>
+                 <option value="3">03</option>
+                 <option value="4">04</option>
+                 <option value="5">05</option>
+                 <option value="6">06</option>
+                 <option value="7">07</option>
+                 <option value="8">08</option>
+                 <option value="9">09</option>
+                 <option value="10">10</option>
+                 <option value="11">11</option>
+                 <option value="12">12</option>
+             </select>
+             <label for="year">Year</label>
+              <select name="year" id="year">
+                 <option value="1">2020</option>
+                 <option value="2">2021</option>
+                 <option value="3">2022</option>
+                 <option value="4">2023</option>
+              </select><br><br>
+           <label for="CVV">CVV</label><br>
+           <input type="text" name="cvv" id="cvv"/> <br><br>
+         <button onclick="alert('Your appointmnent has been booked and details has been sent to your email address. Please be punctual')" id="button">Book Appointment</button><br><br>
+      </form>
+     </div>
+</section>
+ <footer>
+    <div>
+        <div class="left-footer">
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </div>
+        <div class="middle-footer">
+            <form id="newsection" method="post">
+                <p> Sign up for our Newsletter </p>
+                <input type="email" name="email" id="newsletter" placeholder="Enter your email address"/>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+        <div class="right-footer">
+            <p>CONNECT WITH US</p>
+                <ul>
+                    <li><img src="images/facebook.png"></li>
+                    <li><img src="images/twiiter.png"></li>
+                    <li><img src="images/gmail.png"></li>
+                    <li><img src="images/youtube.png"></li>
+                </ul>
+        </div>
+    </div>
+        <div class="copyright">
+            <p>Copyright 2020 St. PETER'S HOSPITAL. All rights reserved.</p>
+        </div>
+            
+</footer>
+</body>
+</html>

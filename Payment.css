@@ -1,0 +1,136 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+.header{
+	padding-top: 10px;
+	background-color:#3fa154;
+	color: rgb(255,255,255);
+	padding-bottom: 10px;
+}
+.header img{
+	width: 90px;
+	height: 90px;
+}
+nav{
+	padding: 10px 70px;
+}
+.nav-brand{
+	float: left;
+}
+.nav-group{
+	list-style-type: none;
+	margin-top: 0;
+	
+}
+.nav-item a{
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin-right: 0px;
+	font-size: 15px;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+nav li{
+	display: inline-block;
+	padding: 20px;
+}
+.card {
+    display:flex;
+    justify-content: space-between;
+    width:20%;
+    text-align:center;
+    margin-top:20px;
+    margin-left:35%;
+}
+#cards {
+    margin-top:10px;
+}
+.details {
+        border:solid 1px;
+        width:20%;
+        margin-left:35%;
+        border-radius:20px;
+        padding:30px;
+        line-height:1.5;
+}
+#button{
+    background-color:#3fa154;
+    line-height: 1.75;
+    margin-top: 15px;
+    color:rgb(255,255,255);
+}
+/*FOOTER*/
+footer{
+	position: absolute;
+	height: 25%;
+    margin-top: 50px;
+	width: 100%;
+    background-color:#3fa154;
+}
+footer li{
+	padding: 4px;
+	list-style-type: none;
+}
+
+footer a{
+	line-height: 1px;
+	color: white;
+	text-decoration: none;
+}
+.left-footer{
+	
+	float: left;
+	margin-left: 5px;
+}
+.middle-footer{
+	width: 38%;
+	float: left;
+	margin-left: 5px;
+	padding-left: 50px;
+	color: white;
+}
+footer input[type=email]{
+	width: 60%;
+}
+footer input[type=email],
+footer button {
+	border-radius: 0;
+	padding: 5px;
+	margin-top: 0;
+	margin-right: 4px;
+}
+.right-footer{
+	width: 35%;
+	float: right;
+	color: white;
+	margin-left: 5px;
+}
+.right-footer ul{
+	padding: 0;
+}
+.right-footer li{
+	display: inline;
+	padding: 8px;
+	margin-right: 5px;
+}
+.right-footer img{
+	height: 30px;
+}
+.copyright{
+	font-size: 15px;
+	height: 30px;
+	color: white;
+	text-align: center;
+}
+.copyright p{
+	margin-top: 50px;
+	padding-right: 90px;
+	padding-top: 50px;
+}
