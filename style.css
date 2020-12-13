@@ -2,12 +2,14 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
-	height: 145vh;
+	height: 300vh;
+}
+a{
+	text-decoration: none;
 }
 .header{
 	padding-top: 10px;
-	background-color:#3fa154;
-	color: rgb(255,255,255);
+	background-color:aquamarine;
 	padding-bottom: 10px;
 }
 .header img{
@@ -27,7 +29,7 @@ nav{
 }
 .nav-item a{
 	text-decoration: none;
-	color: white;
+	color: black;
 	float: right;
 	margin-right: 0px;
 	font-size: 15px;
@@ -53,26 +55,26 @@ nav li{
 	padding-left: 90px;
 	padding-right: 90px;
 	justify-content: center;
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/6.jpg');
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/g.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .page-text button a{
 	text-decoration: none;
-	color: white;
+	color: black;
 	font-weight: bold; 
 }
 .page-btn{
 	border:1px solid white;
-	background: #3fa154;
+	background: aquamarine;
 	border-radius: 10px;
 	color: white;
 	margin: 20px;
 	padding: 15px;
 	letter-spacing: 1px;
 }
-.page-btn:hover{
-	background: white;
+.page-btn btn:hover{
+	background: #3fa154;
 }
 
 /* SECTION-ONE*/
@@ -84,8 +86,8 @@ nav li{
 	content: "";
 	position: absolute;
 	left: 600px;
-	bottom: 15px;
-	border-bottom: 5px solid #3fa154;
+	bottom: -5px;
+	border-bottom: 5px solid aquamarine;
 	width: 5%;
 
 }
@@ -96,20 +98,23 @@ nav li{
 }
 .page-btn .fa{
 	font-size: 20px;
-	color: white;
+	color: black;
 }
 .page-btn .far{
 	font-size: 20px;
 	color: white;
 }
+.section-boxes{
+	height: 455px;
+}
 .section-boxes-content{
-	background-color: rgba(255, 254, 254, 0.986);
+	background-color: rgba(225, 224, 224, 0.5);
 	border-radius: 5px;
 	width: 30%;
 	float: left;
-	height: 500px;
-	box-shadow: 15px 10px 5px #3fa154;
-	margin-top: 0;
+	height: 450px;
+	box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
 	text-align: center;
 	border:1px solid ;
 	padding: 1px 0px;
@@ -123,14 +128,43 @@ nav li{
 	margin-bottom: 50px;
 	padding: 10px;
 }
+/*ANNOUNCEMENT*/
+.announcement{
+	border-top: 0px;
+	line-height: 30px;
+	height: 450px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 95%;
+	height: 510px;
+	margin-top: 0px;
+	text-align: center;
+	padding: 1px 1px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+.announcement h1{
+	text-align: center;
+	justify-content: center;
+}
+.left-ann{
+	float: left;
+	width: 45%;
+}
+.right-ann{
+	float: right;
+	width: 45%;
+
+}
 
 /*FOOTER*/
 footer{
 	position: absolute;
 	height: 25%;
-	top: 1300px;
+	top: 1800px;
 	width: 100%;
-	background-color:#3fa154;
+	background-color:aquamarine;
 }
 footer li{
 	padding: 4px;
@@ -139,7 +173,7 @@ footer li{
 
 footer a{
 	line-height: 1px;
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 .left-footer{
@@ -148,11 +182,11 @@ footer a{
 	margin-left: 5px;
 }
 .middle-footer{
-	width: 38%;
+	width: 40%;
 	float: left;
 	margin-left: 5px;
 	padding-left: 50px;
-	color: white;
+	color: black;
 }
 footer input[type=email]{
 	width: 60%;
@@ -167,7 +201,7 @@ footer button {
 .right-footer{
 	width: 35%;
 	float: right;
-	color: white;
+	color: black;
 	margin-left: 5px;
 }
 .right-footer ul{
@@ -184,7 +218,7 @@ footer button {
 .copyright{
 	font-size: 15px;
 	height: 30px;
-	color: white;
+	color: black;
 	text-align: center;
 }
 .copyright p{
@@ -192,39 +226,3 @@ footer button {
 	padding-right: 90px;
 	padding-top: 50px;
 }
-/*header img{
-	background-image: url('images/7.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 80px;
-	float: left;
-	padding-bottom: 10px;
-	margin-top: 0;
-	margin-left: 30px;
-}
-nav ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: #24305E;
-	text-align: right;
-}
-nav li{
-	display: inline-block;
-	padding: 20px;
-}
-nav a{
-	font-size: 15px;
-	text-decoration: none;
-	color:white;
-}
-.align-center{
-	text-align: center;
-	padding-top: 150px;
-	padding-left: 50px;
-	padding-right: 50px;
-	justify-content: center;
-	background-image: url(images/7.jpg);
-	background-repeat: no-repeat;
-	background-size: 1500px 500px;
-}*/
