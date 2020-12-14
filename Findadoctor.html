@@ -9,8 +9,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>Please find below available Doctors</h1>
-    <div class="side-form">
+    <nav class="nav-bar">
+        <div class="logo-img">
+          <img src="resources/images/logo.png" alt="phoneicon" style="width: 80px; height: 80px;">
+        </div>
+        <ul class="look">
+          <li class="nav-item"><a href="index.html">Home</a></li>
+          <li class="nav-item"><a href="..\health01\sign_in.html">Login</a></li>
+          <li class="nav-item"><a href="..\health01\Hackathonsignup.html">Register</a></li>
+          <li class="nav-item"><a href="..\health01\data.html">Health Blog</a></li>
+        </ul>
+        </nav>
+        <h1>Please find below available Doctors</h1>
+        <div class="side-form">
         <form action="#" method="post" enctype="multipart/form-data">
             <div class="part1">
                 <label for="Doctor">Dr Adams</label><br>
@@ -50,6 +61,36 @@
             </div>
         </form>
     </div>
-    <button id="btn" onclick="alert('Please wait while we redirect you to the payment channel')">Book and Pay</button>
+    <button id="btn" onclick="alert('Please wait while we redirect you to the payment channel')"><a href="..\health01\Payment details.html">Book and Pay</a></button>
+    <footer>
+        <div class="info">
+            <div class="foot1">
+                <ul id="quick-links" >
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Patient's Reviews</a></li>
+                    <li> <a href="#">Health News</a></li>
+                    <li> <a href="#">Meet our Team of Doctors</a></li>
+                    <li> <a href="#">Global Recognitions</a></li>
+                </ul>
+            </div>
+            <div class="foot2">
+                <p>Sign up for our Newsletter</p>
+                <form>
+                    <input type="email" name="email" placeholder="Enter your email address" id="foot-email"/>
+                    <button class="styling" type="submit">SUBMIT</button>
+                </form>
+            </div>
+            <div class="foot3">
+                <p>CONNECT WITH US</p>
+                <ul class="socials">
+                  <li><img src="resources/images/facebook.png"></li>
+                  <li><img src="resources/images/twiiter.png"></li>
+                  <li><img src="resources/images/gmail.png"></li>
+                  <li><img src="resources/images/youtube.png"></li>
+                </ul>
+            </div>
+        </div>
+            <p id="copyright">Copyright 2020 St Peters Hospital.com<span> All rights reserved.</span></p> 
+    </footer> 
 </body>
 </html>

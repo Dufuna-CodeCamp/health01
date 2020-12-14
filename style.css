@@ -55,7 +55,7 @@ nav li{
 	padding-left: 90px;
 	padding-right: 90px;
 	justify-content: center;
-	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/g.jpg');
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/patientdoctor.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }

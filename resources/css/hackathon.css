@@ -10,14 +10,14 @@ ul {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-top: 5px;
 }
 
 .nav-bar {
-    background-color: #3fa154;
-    color: white;
+    background-color: aquamarine;
+    color: black;
     height: 80px;
     font-size: 16px;
     display: flex;
@@ -32,7 +32,7 @@ nav ul li a {
 }
 
 ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 5px;
 }
@@ -54,7 +54,7 @@ h2 {
 .side form {
     border: 2px solid; 
     border-radius: 45px;
-    color:  #3fa154;
+    color: black;
     padding-bottom: 10px;
     height: 600px;
     width: 400px;
@@ -76,13 +76,13 @@ h2 {
     padding-right: 20px;
     margin-left: 40px;
     background-color: rgb(247, 247, 247);
-    border-color: #3fa154;
+    border-color: aquamarine;
     margin-bottom: 8px;
 }
 
 form label {
     margin-left: 40px;
-    color:  #3fa154);
+    color: aquamarine);
     font-weight: bold;
 }
 
@@ -93,7 +93,7 @@ form label {
 .formbase {
     display: flex;
     flex-direction: row;
-    color: #3fa154;
+    color:aquamarine;
     font-weight: bold;
     font-size: 16px;
     justify-content: center;
@@ -109,12 +109,12 @@ input[type=checkbox] {
 }
 
 #btn {
-    background-color: #3fa154;
+    background-color:aquamarien;
     float: middle;
     border-radius: 5px;
     border: none;
     padding: 10px 30px;
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 15px;
     margin-left: 150px;
@@ -132,8 +132,8 @@ input[type=checkbox] {
 footer {
     padding-top: 10px;
     padding-bottom: 20px;
-    color: white;
-    background-color:  #3fa154;
+    color: black;
+    background-color:  aquamarine;
     margin-top: 80px;
 }
 
@@ -158,7 +158,7 @@ footer .info {
 }
 
 #foot-email {
-    color:  #3fa154;
+    color:  aquamarine;
     height: 40px;
     padding: 0 50px;
     margin-bottom: 5px;
@@ -188,7 +188,7 @@ ul #quick-links {
 }
 
 #quick-links li a {
-    color: #ffffff;
+    color: black;
     text-decoration: none;
 }
 
@@ -204,9 +204,9 @@ footer #copyright {
 
 .styling {
     height: 40px;
-    color: rgb #3fa154;
+    color:  black;
     width: 70px;
-    background-color: white;
+    background-color: aquamarine;
     border: none;
 }
 
@@ -266,7 +266,7 @@ footer #copyright {
     }
 
     #foot-email {
-        color: rgb #3fa154;
+        color: aquamarine;
         height: 40px;
         padding: 0 10px;
         margin-bottom: 5px;
@@ -274,9 +274,9 @@ footer #copyright {
 
     .styling {
         height: 40px;
-        color: rgb #3fa154;
+        color: rgb aquamarine;
         width: 70px;
-        background-color: white;
+        background-color: black;
         border: none;
     }
 
@@ -334,7 +334,7 @@ footer #copyright {
     }
 
     #foot-email {
-        color: rgbrgb #3fa154;
+        color: aquamarine;
         height: 40px;
         padding: 0 10px;
         margin-bottom: 5px;
@@ -342,9 +342,9 @@ footer #copyright {
 
     .styling {
         height: 40px;
-        color:rgb #3fa154;
+        color:black;
         width: 70px;
-        background-color: white;
+        background-color: aquamarine;
         border: none;
     }
 
