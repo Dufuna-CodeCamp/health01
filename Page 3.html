@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>St. Peter's Hospital</title>
+	<link rel="stylesheet" type="text/css" href="Payment.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">	
+</head>
+<body>
+    <div class="header">
+		<nav>
+			<a class="nav-brand" href="index.html"><img src="images/logo.png"></a>
+			<ul class="nav-group">
+				<li class="nav-item"><a href="index.html">Home</a></li>
+				<li class="nav-item"><a href="login.html">Login</a></li>
+				<li class="nav-item"><a href="appointment.html">Book an appointment</a></li>
+				<li class="nav-item"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+ <form>
+   <label for="male">Card Type</label> <br>
+   <input type="radio" name="gender" value="Male" id="male">
+   <label for="male">Mastercard</label> <br>
+   <input type="radio" name="gender" value="female" id="female">
+   <label for="female">Verve</label><br><br>
+   <label for="firstname">Card Number</label><br>
+   <input type="text" name="firstname" id="firstname"/> <br><br>
+   <label for="lastname">Expiry Date</label><br>
+   <input type="text" name="lastname" id="lastname"/> <br><br>
+   <label for="firstname">CVV</label><br>
+   <input type="text" name="firstname" id="firstname"/> <br><br>
+   <button onclick="alert('Your appointmnent has been booked and details has been sent to your email address. Please be punctual')">Book Appointment</button><br><br>
+ </form>
+ <footer>
+    <div>
+        <div class="left-footer">
+            <ul>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </div>
+        <div class="middle-footer">
+            <form id="newsection" method="post">
+                <p> Sign up for our Newsletter </p>
+                <input type="email" name="email" id="newsletter" placeholder="Enter your email address"/>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+        <div class="right-footer">
+            <p>CONNECT WITH US</p>
+                <ul>
+                    <li><img src="images/facebook.png"></li>
+                    <li><img src="images/twiiter.png"></li>
+                    <li><img src="images/gmail.png"></li>
+                    <li><img src="images/youtube.png"></li>
+                </ul>
+        </div>
+    </div>
+        <div class="copyright">
+            <p>Copyright 2020 St. PETER'S HOSPITAL. All rights reserved.</p>
+        </div>
+            
+</footer>
+</body>
+</html>
