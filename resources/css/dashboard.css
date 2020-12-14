@@ -10,22 +10,22 @@ ul {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding-top: 10px;
     margin-top: 5px;
 }
 
 .styling {
     border-radius: 0px;
-    color: #3fa154;
+    color: black;
     width: 70px;
-    background-color: white;
+    background-color: aquamarine;
     text-transform: uppercase;
 }
 
 .nav-bar {
-    background-color: #3fa154;
-    color: white;
+    background-color:  aquamarine;
+    color:black;
     height: 80px;
     font-size: 16px;
     display: flex;
@@ -40,7 +40,7 @@ nav ul li a {
 }
 
 ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     margin: 5px;
 }
@@ -54,8 +54,8 @@ ul li a {
     font-size: 10px;
     border-radius: 12px;
     padding: 10px;
-    color: white;
-    background-color:#3fa154;
+    color: black;
+    background-color aquamarine;
     border: none;
     width: 70%;
 }
@@ -80,9 +80,9 @@ ul li a {
 }
 
 #dashboard {
-    border: white;
+    border: black;
     border-radius: 35px;
-    background-color: #3fa154;
+    background-color: aquamarine;
     padding: 12px;   
     font-weight: bold; 
     text-align: center;
